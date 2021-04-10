@@ -1,0 +1,50 @@
+.flexContainer{
+    display: flex;
+}
+
+.flexFooter{
+    align-content: space-around;
+}
+
+footer{
+    padding: 1em;
+    background-color: #253942;
+    color: #FFF;
+}
+
+header{
+    background-color: #141719;
+    color: #5ADAD2;
+    font-size: 1.35em;
+}
+
+body{
+    background-color: #141719;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navBar{
+    background-color: #253942;
+}
+
+#navBar a{
+    font-size: 18pt;
+    color: #FFF;
+    float: left;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+#navBar a:hover{
+    background-color: #46A29F;
+    color: #141719;
+    transition: 1s;
+}
+
+#active{
+    color: #5ADAD2;
+}
