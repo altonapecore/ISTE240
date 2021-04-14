@@ -1,26 +1,65 @@
 .flexContainer{
     display: flex;
+    justify-content: space-around;
 }
 
-.flexFooter{
-    align-content: space-around;
+/*Contains page content for homepage*/
+.homeMain{
+    color: #C5C6C8;
+    padding-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.6;
 }
 
+/*Logo in the header*/
+header img{
+    height: 2em;
+    padding: 10px 0px 10px 40px;
+}
+
+/*Gets rid of lines under links cause they ugly*/
+a{
+    text-decoration: none;
+}
+
+/*Imma be real chief im not sure how to get stuff to stick on bottom of page*/
 footer{
     padding: 1em;
     background-color: #253942;
     color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer a{
+    color: #FFF;
+}
+
+/*The way that the footer link hover behaves diff from links in nav and idk why*/
+footer a:hover{
+    background-color: #5ADAD2;
+    transition: .3s;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 header{
     background-color: #141719;
     color: #5ADAD2;
-    font-size: 1.35em;
+    font-size: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 body{
     background-color: #141719;
 }
+
 
 html{
     font-family: Arial, Helvetica, sans-serif;
@@ -28,21 +67,24 @@ html{
 
 #navBar{
     background-color: #253942;
+    position: inherit;
+    right: 0;
+    left: 0;
 }
 
 #navBar a{
-    font-size: 18pt;
     color: #FFF;
     float: left;
     text-align: center;
-    padding: 15px 15px;
+    padding: 1em;
     text-decoration: none;
+    background-color: #253942;
 }
 
 #navBar a:hover{
     background-color: #46A29F;
-    color: #141719;
-    transition: 1s;
+    transition: .3s;
+    border-radius: 10px;
 }
 
 #active{

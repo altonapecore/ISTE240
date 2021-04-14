@@ -4,23 +4,23 @@
     include $path.'assets/php/header.php';
 ?>
 
-<div>
-    <h1>This is the home page</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="homeMain">
+    <h1>Welcome to UNIX Webcamp!</h1>
+    <!--Taken mostly straight from the design doc-->
+    <p>UNIX is a multi-tasking, multi-user operating system which was first developed in the 1960s.
+        It offers a wide array of functionality, allowing users to (IDK WHAT, PUT STUFF HERE)
+        Though it may be old, it's still in use today in a wide variety of fields.
+        
     </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <p>One such field is web development! On this site, we will guide you step-by-step through learning UNIX for web development.
+    The lessons are designed to educate anyone at any skill level. For absolute beginners who have no knowledge of UNIX, the website will include starter-level UNIX lessons that will build the needed skills to level up their website development skills. 
+    After completing beginner-level exercises, the website will also include more advanced lessons. 
+    These are designed for people who may be at an intermediate or even expert level of UNIX knowledge. 
+    Lessons are designed so that after completion, the users will emerge as fully formed, UNIX competent butterflies, ready to take on more advanced works.
     </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Wtf. I'm gonna assume
-        that the Discord bot is supposed to catch this?? Intersting? 
+    <p>After completion, we trust that our users will have learned enough skills to participate in the world of amateur web development, and possibly even move into the professional world. 
+    While our goal is to educate, it is important to us that our users feel good about their work. 
+    We do not believe in hard drills or forced pattern memorization, but rather have taken a more wholesome approach to guide our students into the beautiful butterflies they had inside them all along.
     </p>
 </div>
 

@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Home Page</title>
+	<title>Home</title>
+    <link rel="stylesheet" href="assets/css/mainStyles.css">
 </head>
 <body>
-    <header>UNIX BOOTCAMP (NEEDS BETTER TITLE PER BAN'S REQUEST)</header>
+    <header>
+        <img src="assets/img/logo.png"></img>
     <div id="navBar">
-        <a href="#" id="active">Homepage(Needs home logo)</a>
-        <a href="#">Learn</a>
-        <a href="#">Reference</a>
-        <a href="#">Our Team</a>
+        <div class="flexContainer">
+            <!--Honestly not sure if home logo is 100% necessary-->
+            <div class=flexNav><a href="#" id="active">Home</a></div>
+            <div class=flexNav><a href="#">Learn</a></div>
+            <div class=flexNav><a href="#">Reference</a><div>
+        </div>
+        <!--Dan suggested moving Our Team to footer so we can do that-->
     </div>
+    </header>
