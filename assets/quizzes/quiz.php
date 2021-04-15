@@ -9,9 +9,11 @@
     include ('../../dbConn.php');
 
     # We'll be getting a quiz number from the header so we need to use that in order to get the questions
-    $sql = 'select * from `quizzes` where lessonNo=0';
-
-    $res = $mysqli->query($sql);
+    $lessonNo = $_GET["lessonNo"];
+    $stmt = $mysqli->prepare("SELECT * from quizzes WHERE lessonNo=?");
+    $stmt->bind_param("i", $lessonNo);
+    $stmt->execute();
+    $res = $stmt->get_result();
     if($res){
         while($rowHolder = mysqli_fetch_array($res, MYSQLI_ASSOC)){
             $records[] = $rowHolder;

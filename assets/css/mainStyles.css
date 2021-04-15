@@ -90,3 +90,15 @@ html{
 #active{
     color: #5ADAD2;
 }
+
+.right{
+    background-color: green;
+}
+
+.wrong{
+    background-color: red;
+}
+
+#content{
+    margin-top: 10%;
+}
