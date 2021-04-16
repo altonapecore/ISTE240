@@ -8,7 +8,7 @@
     <h1>Welcome to UNIX Webcamp!</h1>
     <!--Taken mostly straight from the design doc-->
     <p>UNIX is a multi-tasking, multi-user operating system which was first developed in the 1960s.
-        It offers a wide array of functionality, allowing users to (IDK WHAT, PUT STUFF HERE)
+        It offers a wide array of functionality, allowing users to alter, create, and delete files alongside other users.
         Though it may be old, it's still in use today in a wide variety of fields.
         
     </p>
@@ -22,6 +22,20 @@
     While our goal is to educate, it is important to us that our users feel good about their work. 
     We do not believe in hard drills or forced pattern memorization, but rather have taken a more wholesome approach to guide our students into the beautiful butterflies they had inside them all along.
     </p>
+    <p>Good luck, and happy coding!</p>
+
+    <div class="homeButtons">
+    <section>
+        <h3>Want to start learning?</h3>
+        <h3><a href="#">Learn</a></h3>
+    </section>
+    <section>
+        <h3>Need a list of commands?</h3>
+        <h3><a href="#">Reference</a></h3>
+    </section>
+    </div>
+    <img src="assets/img/homepageKeyboard.png"><img>
+    
 </div>
 
 <?php

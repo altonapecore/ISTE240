@@ -6,11 +6,11 @@
 </head>
 <body>
     <header>
-        <img src="assets/img/logo.png"></img>
+        <a href="http://solace.ist.rit.edu/~iste240t44/"><img src="assets/img/logo.png"></img></a>
     <div id="navBar">
         <div class="flexContainer">
             <!--Honestly not sure if home logo is 100% necessary-->
-            <div class=flexNav><a href="#" id="active">Home</a></div>
+            <div class=flexNav><a href="http://solace.ist.rit.edu/~iste240t44/" id="active">Home</a></div>
             <div class=flexNav><a href="#">Learn</a></div>
             <div class=flexNav><a href="#">Reference</a><div>
         </div>
