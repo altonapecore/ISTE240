@@ -34,7 +34,7 @@
         <h3><a href="#">Reference</a></h3>
     </section>
     </div>
-    <img src="assets/img/homepageKeyboard.png"><img>
+    <img src="assets/img/homeKeyboard.png"><img>
     
 </div>
 
