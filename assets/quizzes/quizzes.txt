@@ -1,0 +1,275 @@
+Intro 
+
+Hook 
+
+Kernel 
+
+Basic Unix / miscellaneous  
+
+Tutorial 0 
+
+Login 
+
+In order to start up Unix, the user would need to access a terminal for it. On a Windows machine, click the Windows key and R key simultaneously. This would open a prompt, from there, type cmd and click on run. On a Mac, click on the magnifier glass at the top right of the screen. It should open a search prompt and type in “Terminal”.  
+
+rwx  
+
+rwx is used to set permissions for files and directories. R stands for read, or who can read the file. This should always be set by default. W stands for write, or who can write into the file. Finally, x stands for execute, for who can run the file. In Unix, these are represented with numbers, 0 through 7. If the file has a 0 next to it, it just means there are no permissions. A 1 means it can be executed. A 2 means it can be written in. A 3 means it can be written in and executed. A 4 means it can be read. A 5 means it can be read and executed. A 6 means it can be read and written in. And a 7 means it can be read, written in, and executed.  
+
+ man command 
+
+The man command is used to bring up a manual for any command. This is extremely useful for when the user need to search up what a specific command does or just forget what does.  
+
+whoami 
+
+The whoami command simply just shows the user who they are currently logged in as in the terminal. It can be useful if there are multiple people who use the computer and log into the terminal. 
+
+ls  
+
+The ls command is used to show the user all the directories and files that the user can go to.  
+
+Quiz 
+
+1. How does the number 5 effect file permissions? 
+
+A: It allows the file to be read and written in 
+
+B: It allows the file to be read and executable 
+
+C: It allows the file to be written in and executable 
+
+D: It just allows the file to be read 
+
+2. Which command allows the user to see who is currently logged into the terminal? 
+
+A: whoami 
+
+B: currentlogin 
+
+C. whoareyou 
+
+D: check 
+
+3. Which command brings up the manual? 
+
+A. manual 
+
+B.   
+
+C. 
+
+D. man 
+
+4. Which command brings up all the paths (files and directories) that the user can go to? 
+
+A. is 
+
+B. ls 
+
+C. showpaths 
+
+D. givepaths 
+
+Tutorial 1 
+
+Files 
+
+cat 
+
+The cat command is used to read off the contents of the file to the user. Simply inputting cat followed by the file name would provide the user with the contents by reading the file.  
+
+cp 
+
+The cp command is used to copy files. There are some condictiones to this, however. The first being that if it is in the same directory, it needs to have a different name. The contents can still be the same. But, if the file is going to a different directory, it can be either have a different name or the same name. Learn more about directories in the next topic. 
+
+mv 
+
+The mv command is used to rename the file. The way it works is that it creates a new file with the new name that you have provided, moves all the content from that old file onto the new one, then deletes the old file. That move of content is why is it mv instead of one that is more related to renaming. The way to do this is: mc oldfile newfile , replacing oldfile with the file you wish to be replaced and replacing newfile with the file you wish to rename it to.  
+
+rm 
+
+The rm command is used to remove a file.  
+
+vi  
+
+The vi command is used to view the file.  
+
+Quiz:  
+
+1. Which command allows the user to be able to read the contents of a file? 
+
+A: cat 
+
+B: contents 
+
+C:  
+
+D: 
+
+2. Which command allows the user to copy files? 
+
+A: copy 
+
+B:  
+
+C: cp 
+
+D: 
+
+3. If you are trying to copy a file into the same directory, you should make sure that _________. 
+
+A: Nothing, you can copy the file without any worries 
+
+B: the file name differs from any other file in the directory 
+
+C: the file name is the same as any other file in the directory 
+
+D:  
+
+4. Which command lets the user rename a file? 
+
+A: mv 
+
+B: rename 
+
+C: move 
+
+D:  
+
+Tutorial 2 
+
+Directory 
+
+pwd 
+
+The pwd command is used to show the current directory that the user is in. It shows the root that it takes, going from the shell to the current directory. 
+
+cd 
+
+The cd command is used to allow the user to change directories.  
+
+md/mkdir 
+
+The md or mkdir command is used to make a new directory.  
+
+Quiz: 
+
+1. Which command lets the user see their current working directory? 
+
+A:  whichdirectory 
+
+B:  directory 
+
+C:  where 
+
+D: pwd 
+
+2. Which command lets the user change their current directory?  
+
+A: different 
+
+B: cd 
+
+C: change 
+
+D:  
+
+3. If a user wants to go back to the previous directory, they can add the following after their change command. 
+
+A: .. 
+
+B: the previous directory’s name 
+
+C:  
+
+D:  
+
+4. Which command allows the user to make a new directory? 
+
+A: md 
+
+B: mkdir 
+
+C: both a and b 
+
+D: none of the above 
+
+Advanced Unix 
+
+Tutorial 3 
+
+Advanced Files 
+
+touch 
+
+The touch command is another way of making a file in a directory.  
+
+wc 
+
+The wc command is used to find the number of lines, characters, and words in that specific order.  
+
+chmod  
+
+The chmod command is used to change the file’s permissions. 
+
+gzip 
+
+The gzip command is used to compress down a file and turn it into a .gz file implying that it is zipped and compressed.  
+
+gzcat 
+
+The gzcat command is used to check the contents of a zipped file.  
+
+gunzip 
+
+The gunzip command is used to unzip a file, changing it back to the original file type instead of a .gz and thus resorting the file back to the number of bytes it was before the compression.  
+
+Tutorial 4 
+
+Advanced Directory / git commands 
+
+clone 
+
+The clone command will create a copy of the directory in the current one.  
+
+open 
+
+The open command will open up the directory inside of your file finder. Finder for Mac,  
+
+mate / mate .  
+
+ 
+
+Tutorial 5 
+
+Coding 
+
+$ 
+
+ 
+
+echo 
+
+ 
+
+ping 
+
+ 
+
+Tutorial 6 
+
+Vi editor 
+
+More info on vi 
+
+ 
+
+vi –R 
+
+ 
+
+view  
+
+ 
+
+ 
