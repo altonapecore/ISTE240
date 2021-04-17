@@ -31,7 +31,7 @@
     </section>
     <section>
         <h3>Need a list of commands?</h3>
-        <h3><a href="#">Reference</a></h3>
+        <h3><a href="referenceAlphabet.php">Reference</a></h3>
     </section>
     </div>
     <img src="assets/img/homeKeyboard.png"><img>
