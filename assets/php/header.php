@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 	<title>Home</title>
-    <link rel="stylesheet" href="assets/css/mainStyles.css">
+    <link rel="stylesheet" href="<?php echo $path ?>assets/css/mainStyles.css">
 </head>
 <body>
     <header>
-        <a href="http://solace.ist.rit.edu/~iste240t44/"><img src="assets/img/logo.png"></img></a>
+        <a href="http://solace.ist.rit.edu/~iste240t44/"><img src="<?php echo $path ?>assets/img/logo.png"></img></a>
     <div id="navBar">
         <div class="flexContainer">
             <!--Honestly not sure if home logo is 100% necessary-->
