@@ -2,16 +2,15 @@
     <ul class="difficultyGroup">
         <li class="groupName">INTRODUCTION</li>
         <ul>
-            <li><a href="#">Hook</a></li>
-            <li><a href="#">What is the kernel?</a></li>
+            <li><a href="../lessons/INTROkernel.php">What is the kernel?</a></li>
         </ul>
     </ul>
     <ul class="difficultyGroup">
         <li class="groupName">BASIC UNIX</li>
         <ul>
-            <li><a href="#">Miscellaneous commands</a></li>
-            <li><a href="#">Files</a></li>
-            <li><a href="#">Directory</a></li>
+            <li><a href="../lessons/BASICmisc.php">Miscellaneous commands</a></li>
+            <li><a href="../lessons/BASICfiles.php">Files</a></li>
+            <li><a href="../lessons/BASICdirectory.php">Directory</a></li>
             <li><a href="#">Quiz</a></li>
         </ul>
     </ul>

@@ -28,7 +28,7 @@
     <div class="homeButtons">
     <section>
         <h3>Want to start learning?</h3>
-        <h3><a href="assets/lessons/INTROhook.php">Learn</a></h3>
+        <h3><a href="assets/lessons/INTROkernel.php">Learn</a></h3>
     </section>
     <section>
         <h3>Need a list of commands?</h3>

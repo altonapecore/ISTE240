@@ -1,6 +1,6 @@
 <?php
     $path = '../../';
-    $page = 'Hook';
+    $page = 'Kernel';
     include $path.'assets/php/header.php';
 ?>
 <?php
