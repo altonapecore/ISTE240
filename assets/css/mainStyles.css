@@ -80,7 +80,7 @@ footer a{
 
 /*The way that the footer link hover behaves diff from links in nav and idk why*/
 footer a:hover{
-    color: #5ADAD2;
+    background-color: #5ADAD2;
     transition: .3s;
 }
 
