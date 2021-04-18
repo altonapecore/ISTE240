@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Home</title>
+	<title><?php echo $page ?></title>
     <link rel="stylesheet" href="<?php echo $path ?>assets/css/mainStyles.css">
 </head>
 <body>

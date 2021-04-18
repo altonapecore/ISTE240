@@ -8,7 +8,7 @@
 ?>
 
 <div class="lessonContent">
-    <h1>INTRODUCTION</h1>
+    <h1>BASIC UNIX</h1>
     <h2>Directory</h2>
 <h3>pwd</h3> 
 <p>The "pwd" command is used to show the current directory that the user is in. 
