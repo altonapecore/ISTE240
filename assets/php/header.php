@@ -11,7 +11,7 @@
         <div class="flexContainer">
             <!--Honestly not sure if home logo is 100% necessary-->
             <div class=flexNav><a href="http://solace.ist.rit.edu/~iste240t44/" id="active">Home</a></div>
-            <div class=flexNav><a href="#">Learn</a></div>
+            <div class=flexNav><a href="http://solace.ist.rit.edu/~iste240t44/assets/lessons/INTROhook.php">Learn</a></div>
             <div class=flexNav><a href="http://solace.ist.rit.edu/~iste240t44/referenceAlphabet.php">Reference</a><div>
         </div>
         <!--Dan suggested moving Our Team to footer so we can do that-->

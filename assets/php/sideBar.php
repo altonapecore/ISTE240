@@ -1,13 +1,13 @@
 <ul class="sideBar">
     <ul class="difficultyGroup">
-        <li class="groupName">Introduction</li>
+        <li class="groupName">INTRODUCTION</li>
         <ul>
             <li><a href="#">Hook</a></li>
             <li><a href="#">What is the kernel?</a></li>
         </ul>
     </ul>
     <ul class="difficultyGroup">
-        <li class="groupName">Basic UNIX</li>
+        <li class="groupName">BASIC UNIX</li>
         <ul>
             <li><a href="#">Miscellaneous commands</a></li>
             <li><a href="#">Files</a></li>
@@ -16,7 +16,7 @@
         </ul>
     </ul>
     <ul class="difficultyGroup">
-        <li class="groupName">advanced UNIX</li>
+        <li class="groupName">ADVANCED UNIX</li>
         <ul>
             <li><a href="#">Advanced files</a></li>
             <li><a href="#">Advanced directory</a></li>

@@ -8,7 +8,9 @@
 ?>
 
 <div class="lessonContent">
-    <p>no fucking way it's a lesson!!!! AAAAA</p>
+    <h1>INTRODUCTION</h1>
+    <h2>Kernel</h2>
+    <p>bro no way... we are writing lesson?!?! this one is KERNEL</p>
 </div>
 
 <?php

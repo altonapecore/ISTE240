@@ -7,16 +7,17 @@
 <div class="homeMain">
     <h1>Welcome to UNIX Webcamp!</h1>
     <!--Taken mostly straight from the design doc-->
-    <p>UNIX is a multi-tasking, multi-user operating system which was first developed in the 1960s.
+    <p>Unix is a multi-tasking, multi-user operating system which was first developed in the 1960s.
         It offers a wide array of functionality, allowing users to alter, create, and delete files alongside other users.
         Though it may be old, it's still in use today in a wide variety of fields.
         
     </p>
-    <p>One such field is web development! On this site, we will guide you step-by-step through learning UNIX for web development.
-    The lessons are designed to educate anyone at any skill level. For absolute beginners who have no knowledge of UNIX, the website will include starter-level UNIX lessons that will build the needed skills to level up their website development skills. 
+    <p>One such field is web development! On this site, we will guide you step-by-step through learning Unix for web development.
+    The lessons are designed to educate anyone at any skill level. 
+    For absolute beginners who have no knowledge of Unix, the website will include starter-level Unix lessons that will build the needed skills to level up their website development skills. 
     After completing beginner-level exercises, the website will also include more advanced lessons. 
-    These are designed for people who may be at an intermediate or even expert level of UNIX knowledge. 
-    Lessons are designed so that after completion, the users will emerge as fully formed, UNIX competent butterflies, ready to take on more advanced works.
+    These are designed for people who may be at an intermediate or even expert level of Unix knowledge. 
+    Lessons are designed so that after completion, the users will emerge as fully formed, Unix competent butterflies, ready to take on more advanced works.
     </p>
     <p>After completion, we trust that our users will have learned enough skills to participate in the world of amateur web development, and possibly even move into the professional world. 
     While our goal is to educate, it is important to us that our users feel good about their work. 
@@ -27,7 +28,7 @@
     <div class="homeButtons">
     <section>
         <h3>Want to start learning?</h3>
-        <h3><a href="assets/lessons/hook.php">Learn</a></h3>
+        <h3><a href="assets/lessons/INTROhook.php">Learn</a></h3>
     </section>
     <section>
         <h3>Need a list of commands?</h3>
