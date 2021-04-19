@@ -1,5 +1,6 @@
 .flexContainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -66,7 +67,7 @@ footer{
     height: 3em;
     background-color: #253942;
     color: #FFF;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -80,7 +81,7 @@ footer a{
 
 /*The way that the footer link hover behaves diff from links in nav and idk why*/
 footer a:hover{
-    background-color: #5ADAD2;
+    color: #5ADAD2;
     transition: .3s;
 }
 
@@ -138,7 +139,29 @@ html{
     transition: .3s;
 }
 
+.flexNav{
+    float: left;
+}
 
+#quiz{
+    width: 60%;
+}
+
+#title{
+    margin-left: 3em;
+    color: #C5C6C8;
+    font-size: 1.25em;
+}
+
+.question{
+    background-color: #46A29F;
+    border-radius: 10px;
+    margin: 1em;
+    margin-bottom: 2em;
+    padding: .5em .5em 1.5em 1em;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
 
 #active{
     color: #5ADAD2;
@@ -149,42 +172,77 @@ html{
 }
 
 .wrong{
-    background-color: red;
+    background-color: rgb(255, 38, 38);
 }
 
 #content{
-    margin-top: 10%;
+    margin: 1em;
+    margin-top: 8%;
+    position: relative;
+    height: 100%;
 }
 
+.sideBar{
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-color: #253942;
+    border-radius: 15px;
+}
 
+.submit, .specialSubmit{
+    width: 95%;
+    font-size: 1.5em;
+    padding: .5em 0;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 10px;
+    background-color: #253942;
+    color: #C5C6C8;
+    border: none;
+}
+
+.specialSubmit{
+    width: 45%;
+    text-align: center;
+}
+
+.submit:hover, .specialSubmit:hover{
+    background-color: #46A29F;
+    color: #000;
+    cursor: pointer;
+    transition: 1s;
+}
 
 .difficultyGroup{
     height: auto;
     width: auto;
-    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #253942;
-    overflow-x: hidden;
-    padding-top: 20px;
-
+    padding: 1em;
+    padding-left: 1.3em;
+    list-style: none;
 }
 
 .groupName
 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.2em;
     color: #C5C6C8;
 }
 
 .difficultyGroup a {
     padding: 6px 8px 6px 16px;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #C5C6C8;
     display: block;
 }
 
 .difficultyGroup a:hover {
     color: #46A29F;
+}
+
+.difficultyGroup li{
+    list-style: none;
 }
