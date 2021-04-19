@@ -8,7 +8,7 @@
     <ul class="difficultyGroup">
         <li class="groupName">BASIC UNIX</li>
         <ul>
-            <li><a href="../lessons/BASICmisc.php">Miscellaneous Commands</a></li>
+            <li id="lessonActive"><a href="../lessons/BASICmisc.php">Miscellaneous Commands</a></li>
             <li><a href="../lessons/BASICfiles.php">Files</a></li>
             <li><a href="../lessons/BASICdirectory.php">Directory</a></li>
             <li><a href="#">Quiz</a></li>
