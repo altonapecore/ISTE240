@@ -53,9 +53,8 @@
                             # This is a super long print statement, but it handles each question in a nice statement
                             # It iterates through each "question" adding to the question counter afterwards
                             printf("
-                                <div class='question right'>
-                                    <h2>Question %s </h2>
-                                    <p> %s </p>
+                                <div class='question'>
+                                    <h2 class='right'>Question %s : %s</h2>
                                     <input type='radio' id='a' name= %s value='a' checked>
                                     <label for='a'> %s  <i>Good answer!</i></label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>
@@ -72,9 +71,8 @@
                                 $question, $this_row["choiceD"]);
                         } else if($guess == "b"){
                             printf("
-                                <div class='question right'>
-                                    <h2>Question %s </h2>
-                                    <p> %s </p>
+                                <div class='question'>
+                                    <h2 class='right'>Question %s : %s</h2>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' checked>
@@ -91,9 +89,8 @@
                                 $question, $this_row["choiceD"]);
                         } else if($guess == "c"){
                             printf("
-                                <div class='question right'>
-                                    <h2>Question %s </h2>
-                                    <p> %s </p>
+                                <div class='question'>
+                                    <h2 class='right'>Question %s : %s</h2>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>
@@ -110,9 +107,8 @@
                                 $question, $this_row["choiceD"]);
                         } else{
                             printf("
-                                <div class='question right'>
-                                    <h2>Question %s </h2>
-                                    <p> %s </p>
+                                <div class='question'>
+                                    <h2 class='right'>Question %s : %s</h2>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>
@@ -134,9 +130,8 @@
                             # This is a super long print statement, but it handles each question in a nice statement
                             # It iterates through each "question" adding to the question counter afterwards
                             printf("
-                                <div class='question wrong'>
-                                    <h2>Question %s </h2>
-                                    <p> %s </p>
+                                <div class='question'>
+                                    <h2 class='wrong'>Question %s : %s</h2>
                                     <input type='radio' id='a' name= %s value='a' checked>
                                     <label for='a'> %s  <i>Almost!</i></label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>
@@ -153,9 +148,8 @@
                                 $question, $this_row["choiceD"]);
                         } else if($guess == "b"){
                             printf("
-                                <div class='question wrong'>
-                                    <h2>Question %s </h2>
-                                    <p> %s </p>
+                                <div class='question'>
+                                    <h2 class='wrong'>Question %s : %s</h2>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' checked>
@@ -172,9 +166,8 @@
                                 $question, $this_row["choiceD"]);
                         } else if($guess == "c"){
                             printf("
-                                <div class='question wrong'>
-                                    <h2>Question %s </h2>
-                                    <p> %s </p>
+                                <div class='question'>
+                                    <h2 class='wrong'>Question %s : %s</h2>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>
@@ -191,9 +184,8 @@
                                 $question, $this_row["choiceD"]);
                         } else{
                             printf("
-                                <div class='question wrong'>
-                                    <h2>Question %s </h2>
-                                    <p> %s </p>
+                                <div class='question'>
+                                    <h2 class='wrong'>Question %s : %s</h2>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>

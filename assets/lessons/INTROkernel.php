@@ -49,16 +49,13 @@
 		<p>
 			The ls command is used to show the user all the directories and files that the user can go to.  
 		</p>
-
+        <form method="get" action="<?php echo $path . 'assets/quizzes/quiz.php'; ?>">
+            <input type='hidden' name='lessonNo' value=0>
+            <input class="submit" type="submit" value="Take Quiz">
+        </form>
     </div>
 </div>
 
 <?php
     include $path.'assets/php/footer.php';
 ?>
-
-<script>
-    // Quick little fix to get footer to stay at bottom. 
-    // This solution messes with other pages so it's temporary
-    document.getElementsByTagName("footer")[0].style.position = "fixed";
-</script>

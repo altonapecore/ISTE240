@@ -39,7 +39,7 @@
                 # It iterates through each "question" adding to the question counter afterwards
                 printf("
                     <div class='question'>
-                        <h2>Question %s : %s</h2>
+                        <h2 class='questionTitle'>Question %s : %s</h2>
                         <input type='radio' id='a' name= %s value='a'>
                         <label for='a'> %s </label><br/>
                         <input type='radio' id='b' name= %s value='b'>
@@ -66,9 +66,3 @@
 <?php
     include $path.'assets/php/footer.php';
 ?>
-
-<script>
-    // Quick little fix to get footer to stay at bottom. 
-    // This solution messes with other pages so it's temporary
-    document.getElementsByTagName("footer")[0].style.position = "fixed";
-</script>
