@@ -17,9 +17,13 @@
 <h3>open</h3> 
 <p>The "open" command will open up the directory inside of your file finder. Finder for Mac,</p> 
 
-<h3>mate</h3>
 </div>
 
 <?php
     include $path.'assets/php/footer.php';
 ?>
+<script>
+    // Quick little fix to get footer to stay at bottom. 
+    // This solution messes with other pages so it's temporary
+    document.getElementsByTagName("footer")[0].style.position = "fixed";
+</script>

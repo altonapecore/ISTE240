@@ -24,3 +24,8 @@ It shows the root that it takes, going from the shell to the current directory.<
 <?php
     include $path.'assets/php/footer.php';
 ?>
+<script>
+    // Quick little fix to get footer to stay at bottom. 
+    // This solution messes with other pages so it's temporary
+    document.getElementsByTagName("footer")[0].style.position = "fixed";
+</script>
