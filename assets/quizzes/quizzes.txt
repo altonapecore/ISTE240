@@ -26,9 +26,9 @@ D: check
 
 A. manual 
 
-B.   
+B. define
 
-C. 
+c. dictionary
 
 D. man 
 
