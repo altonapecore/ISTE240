@@ -30,7 +30,6 @@
     include $path.'assets/php/footer.php';
 ?>
 <script>
-    // Quick little fix to get footer to stay at bottom. 
-    // This solution messes with other pages so it's temporary
-    document.getElementsByTagName("footer")[0].style.position = "fixed";
+    // Fix to make footer stay on bottom for pages with little content
+    document.getElementsByTagName("footer")[0].style.marginTop = "10%";
 </script>

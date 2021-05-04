@@ -3,7 +3,7 @@
     $page = 'Kernel';
     include $path.'assets/php/header.php';
 ?>
-<div id="content">
+<div class="content">
     <?php
         include $path.'assets/php/sideBar.php';
     ?>
