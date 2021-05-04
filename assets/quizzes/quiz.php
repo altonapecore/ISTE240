@@ -18,9 +18,9 @@
 
 
 ?>
-
-    <div id = "content" class="flexContainer">
+    <div class = "content" >
         <?php include ($path . 'assets/php/sideBar.php'); ?>
+        <div class="lessonContent">
         <form id="quiz" method="get" action="quizAnswer.php">
             <div id="title">
                 <h1>Lesson <?php echo $lessonNo ?> : SAMPLE TEXT </h1>
@@ -39,7 +39,7 @@
                 # It iterates through each "question" adding to the question counter afterwards
                 printf("
                     <div class='question'>
-                        <h2 class='questionTitle'>Question %s : %s</h2>
+                        <h3 class='questionTitle'>Question %s : %s</h3>
                         <input type='radio' id='a' name= %s value='a'>
                         <label for='a'> %s </label><br/>
                         <input type='radio' id='b' name= %s value='b'>
@@ -62,6 +62,7 @@
         <input class="submit" type="submit" value="Submit">
         </form>
     </div>
+        </div>
 
 <?php
     include $path.'assets/php/footer.php';

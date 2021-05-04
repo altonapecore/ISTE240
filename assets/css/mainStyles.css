@@ -109,7 +109,6 @@ body{
 
 .referenceGrid{
     display: grid;
-    grid-gap: 20px 20px;
     row-gap: 10px;
     column-gap: 20px;
     grid-template-columns: 25% 25% 25% 25%;
@@ -146,29 +145,27 @@ html{
     float: left;
 }
 
-#quiz{
-    width: 70%;
-}
+
 
 #title{
-    margin-left: 3em;
     color: #C5C6C8;
     font-size: 1.25em;
+    margin-bottom: 50px;
 }
 
 .question{
     background-color: #253942;
     border-radius: 10px;
-    margin: 1em;
     margin-bottom: 2em;
     padding: .5em .5em 1.5em 1.5em;
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 1.5em;
     color: #C5C6C8;
 }
 
 .questionTitle{
     color: #5ADAD2;
+    font-size: 1.5 em;
 }
 
 .question i{
@@ -226,11 +223,9 @@ html{
 }
 
 .submit, .specialSubmit{
-    width: 95%;
+    width: 100%;
     font-size: 1.5em;
     padding: .5em 0;
-    margin-left: 1em;
-    margin-right: 1em;
     border-radius: 10px;
     background-color: #46A29F;
     color: #141719;
@@ -245,7 +240,6 @@ html{
 .submit:hover, .specialSubmit:hover{
     background-color: #5ADAD2;
     cursor: pointer;
-    font-weight: bold;
     transition: .5s;
 }
 

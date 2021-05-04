@@ -24,9 +24,10 @@
 
 ?>
 
-    <div id = "content" class="flexContainer">
+    <div class = "content" >
         <?php include ($path . 'assets/php/sideBar.php'); ?>
-        <div id="quiz">
+        <div class="lessonContent">
+        <form id="quiz" method="get" action="quizAnswer.php">
             <div id="title">
                 <h1>Lesson <?php echo $lessonNo ?> : SAMPLE TEXT </h1>
             </div>
@@ -54,7 +55,7 @@
                             # It iterates through each "question" adding to the question counter afterwards
                             printf("
                                 <div class='question'>
-                                    <h2 class='right'>Question %s : %s</h2>
+                                    <h3 class='right'>Question %s : %s</h3>
                                     <input type='radio' id='a' name= %s value='a' checked>
                                     <label for='a'> %s  <i>Good answer!</i></label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>
@@ -72,7 +73,7 @@
                         } else if($guess == "b"){
                             printf("
                                 <div class='question'>
-                                    <h2 class='right'>Question %s : %s</h2>
+                                    <h3 class='right'>Question %s : %s</h3>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' checked>
@@ -90,7 +91,7 @@
                         } else if($guess == "c"){
                             printf("
                                 <div class='question'>
-                                    <h2 class='right'>Question %s : %s</h2>
+                                    <h3 class='right'>Question %s : %s</h3>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>
@@ -108,7 +109,7 @@
                         } else{
                             printf("
                                 <div class='question'>
-                                    <h2 class='right'>Question %s : %s</h2>
+                                    <h3 class='right'>Question %s : %s</h3>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>
@@ -131,7 +132,7 @@
                             # It iterates through each "question" adding to the question counter afterwards
                             printf("
                                 <div class='question'>
-                                    <h2 class='wrong'>Question %s : %s</h2>
+                                    <h3 class='wrong'>Question %s : %s</h3>
                                     <input type='radio' id='a' name= %s value='a' checked>
                                     <label for='a'> %s  <i>Almost!</i></label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>
@@ -149,7 +150,7 @@
                         } else if($guess == "b"){
                             printf("
                                 <div class='question'>
-                                    <h2 class='wrong'>Question %s : %s</h2>
+                                    <h3 class='wrong'>Question %s : %s</h3>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' checked>
@@ -167,7 +168,7 @@
                         } else if($guess == "c"){
                             printf("
                                 <div class='question'>
-                                    <h2 class='wrong'>Question %s : %s</h2>
+                                    <h3 class='wrong'>Question %s : %s</h3>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>
@@ -185,7 +186,7 @@
                         } else{
                             printf("
                                 <div class='question'>
-                                    <h2 class='wrong'>Question %s : %s</h2>
+                                    <h3 class='wrong'>Question %s : %s</h3>
                                     <input type='radio' id='a' name= %s value='a' disabled>
                                     <label for='a'> %s </label><br/>
                                     <input type='radio' id='b' name= %s value='b' disabled>
