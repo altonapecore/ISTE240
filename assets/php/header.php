@@ -3,8 +3,9 @@
 <head>
 	<title><?php echo $page ?></title>
     <link rel="stylesheet" href="<?php echo $path ?>assets/css/mainStyles.css">
+    <script src="<?php echo $path ?>assets/script.js"></script>
 </head>
-<body>
+<body onload = "changeLink()">
     <header>
         <a href="http://solace.ist.rit.edu/~iste240t44/"><img src="<?php echo $path ?>assets/img/logo.png"></img></a>
     <div id="navBar">

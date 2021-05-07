@@ -286,9 +286,6 @@ html{
     line-height: 1.6;
 }
 
-p a{
-    color: #46A29F;
-}
 
 p a:hover{
     color: #5ADAD2;
@@ -305,4 +302,26 @@ p a:hover{
 #sortBy{
     color: #5ADAD2;
 
+}
+
+.teamMain{
+    color: #C5C6C8;
+    padding-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.6;
+    position: relative;
+    height: 100%;
+}
+section img{
+    float: left;
+    margin-right: 30px;
+    border-radius: 5px;
+    clear: left;
+    margin-bottom: 20px;
+}
+
+section p{
+    margin-top: 30px;
+    margin-bottom: 150px;
 }
