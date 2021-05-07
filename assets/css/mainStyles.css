@@ -35,7 +35,6 @@
     padding: 10px 20px 10px 20px;
     border-radius: 50px;
     color: white;
-    
 }
 
 .homeMain section a:hover{
@@ -144,8 +143,6 @@ html{
 .flexNav{
     float: left;
 }
-
-
 
 #title{
     color: #C5C6C8;
@@ -286,7 +283,6 @@ html{
     line-height: 1.6;
 }
 
-
 p a:hover{
     color: #5ADAD2;
     transition: .5s;
@@ -295,13 +291,14 @@ p a:hover{
 .difficultyGroup .quiz {
     color: #46A29F;
 }
+
 .difficultyGroup .quiz:hover {
     color: #5ADAD2;
     transition: .5s;
 }
+
 #sortBy{
     color: #5ADAD2;
-
 }
 
 .teamMain{
@@ -313,6 +310,7 @@ p a:hover{
     position: relative;
     height: 100%;
 }
+
 section img{
     float: left;
     margin-right: 30px;
