@@ -198,7 +198,7 @@ C. mv dir3 text.txt
 
 D. mv dir3 dir2 
 
-7.  When using the cd command, a user can go to another directory outside of the current one they are in. 
+7.  When using the cd command, a user can go directly to another directory outside of the current one they are in. 
 
 A. True 
 
