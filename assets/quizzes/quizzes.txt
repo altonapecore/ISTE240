@@ -1,4 +1,8 @@
-Tutorial 0 - Quizzes
+Basic Unix / miscellaneous  
+
+Tutorial 0 
+
+Quiz 
 
 1. How does the number 5 effect file permissions? 
 
@@ -10,7 +14,6 @@ C: It allows the file to be written in and executable
 
 D: It just allows the file to be read 
 
-
 2. Which command allows the user to see who is currently logged into the terminal? 
 
 A: whoami 
@@ -21,17 +24,15 @@ C. whoareyou
 
 D: check 
 
-
 3. Which command brings up the manual? 
 
 A. manual 
 
-B. define
+B.  define		 
 
-c. dictionary
+C. dictionary 
 
 D. man 
-
 
 4. Which command brings up all the paths (files and directories) that the user can go to? 
 
@@ -43,8 +44,11 @@ C. showpaths
 
 D. givepaths 
 
+Tutorial 1 
 
-Tutorial 1 - Quizzes:  
+Files 
+
+Quiz:  
 
 1. Which command allows the user to be able to read the contents of a file? 
 
@@ -52,32 +56,29 @@ A: cat
 
 B: contents 
 
-C:  
+C: read 
 
-D: 
-
+D: rd 
 
 2. Which command allows the user to copy files? 
 
 A: copy 
 
-B:  
+B: c 
 
 C: cp 
 
-D: 
-
+D: repeat 
 
 3. If you are trying to copy a file into the same directory, you should make sure that _________. 
 
-A: Nothing, you can copy the file without any worries 
+A: Nothing, you can copy the file without any worry 
 
 B: the file name differs from any other file in the directory 
 
 C: the file name is the same as any other file in the directory 
 
-D:  
-
+D: the file name has the same name as the directory 
 
 4. Which command lets the user rename a file? 
 
@@ -87,10 +88,13 @@ B: rename
 
 C: move 
 
-D:  
+D: newname 
 
+Tutorial 2 
 
-Tutorial 2 - Quizzes: 
+Directory 
+
+Quiz: 
 
 1. Which command lets the user see their current working directory? 
 
@@ -102,8 +106,7 @@ C:  where
 
 D: pwd 
 
-
-2. Which command lets the user change their current directory?  
+2. Which command lets the user change their current directory? 
 
 A: different 
 
@@ -111,19 +114,17 @@ B: cd
 
 C: change 
 
-D:  
-
+D: select 
 
 3. If a user wants to go back to the previous directory, they can add the following after their change command. 
 
 A: .. 
 
-B: the previous directory’s name 
+B: The previous directory’s name 
 
-C:  
+C: You cannot go back in a directory and thus need to close the terminal and start it all over again 
 
-D:  
-
+D: Both A and B 
 
 4. Which command allows the user to make a new directory? 
 
@@ -135,13 +136,288 @@ C: both a and b
 
 D: none of the above 
 
+Basic Unix quiz 
+
+1. How does the number 3 effect the permissions?  
+
+A. Written in 
+
+B. Read only 
+
+C. Executed only 
+
+D. Written and executed in 
+
+2.  If a user has a file named “hello” and want to change the name to “welcome”, how should that user go about to change the file name in the most efficient way?  
+
+A. The user would need to type in mv hello welcome 
+
+B. The user would need to type in mv welcome hello 
+
+C. It can’t be renamed so the user would need to delete the file hello and create a new one named welcome 
+
+D. They would need to use the command touch welcome, then cp hello welcome, and finally rm hello. 
+
+3. The user now wishes to delete the file “welcome”; how should the user go about to deleting it in the efficient way? C 
+
+A. The user would need to find it in his file explorer and delete it from there
+
+B. The user would need to delete the directory
+
+C. The user would need to type in rm welcome 
+
+D. The user would need to type in mv welcome
+
+4. To check the current directory and the path it took to get there, what would the user type in? 
+
+A. path 
+
+B. cd 
+
+C. pwd 
+
+D. ls
+
+5. The very first step to open a terminal on a windows machine, the user should _______. 
+
+A. open their file explorer 
+
+B. press on the windows key and the r simultaneously 
+
+C. open up a web browser
+
+D. just type in the word "terminal" and have it appear
+
+6. A user creates a file in a directory named dir2. The file’s name is “test.txt”. The user wants to move this file into another directory named dir3, which is inside of dir2. What command should the user input to accomplish this? 
+
+A. mv test.txt dir3 
+
+B. mv dir2 dir3 
+
+C. mv dir3 text.txt 
+
+D. mv dir3 dir2 
+
+7.  When using the cd command, a user can go to another directory outside of the current one they are in. 
+
+A. True 
+
+B. False 
+
+8. ls and pwd do the same thing. 
+
+A. True 
+
+B. False 
 
 Advanced Unix 
 
-Tutorial 3 - Quizzes: 
+Tutorial 3 
 
-Tutorial 4 - Quizzes:  
+Advanced Files 
 
-Tutorial 5 - Quizzes:
+Quiz:  
 
-Tutorial 6 - Quizzes:
+1. Which command allows the user to make a new file? 
+
+A: mkdir 
+
+B: mk 
+
+C: create 
+
+D: touch 
+
+2. Which command allows the user set permissions for their file? 
+
+A: chmod 
+
+B: change 
+
+C: newperms 
+
+D: setperms 
+
+3. Which command allows the user to compress their file? 
+
+A: comp 
+
+B: gzip 
+
+C: You can’t compress in Unix 
+
+D: Both A and B 
+
+4. Which command allows the user to uncompress their file? 
+
+A: uncomp 
+
+B: You can’t compress in Unix 
+
+C: open 
+
+D: gunzip 
+
+Tutorial 4 
+
+Advanced Directory  
+
+Quiz:  
+
+1. Which of the following is an acceptable line using the clone command? 
+
+A: clone github.com/index.html 
+
+B: clone index.html 
+
+C: clone http://github.com/dck2044/index.html 
+
+D: git clone http://github.com/dck2044/index.html 
+
+2. Which command will open your current working directory inside of your file finder? 
+
+A: open 
+
+B: current 
+
+C: finder 
+
+D: file 
+
+Tutorial 5 
+
+Coding 
+
+Quiz: 
+
+1. Which symbol lets the user know that the terminal is expecting to receive code? 
+
+A: # 
+
+B: / 
+
+C: $ 
+
+D: Both A and C 
+
+2. What does the # symbol mean?  
+
+A: The user is a normal user 
+
+B: It doesn’t exist 
+
+C: The user is the system administrator 
+
+D: It means the terminal isn’t working properly 
+
+3. If the user was to type out x=10, followed by echo $x, on the next line, what is the user expected to see on the following line?  
+
+A. 10 
+
+B: An error message 
+
+C: It would be blank 
+
+D: x 
+
+Tutorial 6 
+
+Vi editor 
+
+Quiz
+
+1.  A user wants to create a file names “viexample” using the vi command. How do they go about with it? 
+
+A: vi viexample 
+
+B: create vi viexample 
+
+C: viexample vi 
+
+D: touch vi viexample 
+
+2. After inputting some lines of text into a file using vi, what should the user type to read what was inputted? 
+
+A: vi –R viexample 
+
+B: view viexample 
+
+C: Both A and B 
+
+D: vi –r viexample 
+
+Advanced Unix quiz 
+
+1. If a user inputs a line that has x=(5+3), then inputs echo $x. What is on the next line?  
+
+A. 8 
+
+B. (5+3) 
+
+C. 5+3 
+
+D. An error message 
+
+2.  If a user wants to test if they are connected to the internet using the terminal, what command should they use?  
+
+A. ping 
+
+B. checkip 
+
+C. checkconnection 
+
+D. connect 
+
+3. When using the vi command, what should follow typing out vi? 
+
+A. The directory 
+
+B. Nothing should follow it 
+
+C. Another command 
+
+D. The filename 
+
+4. In order to check the contents of a zipped file, which git command will allow the user to do so? 
+
+A. gzcat 
+
+B. gunzip 
+
+C. gzip 
+
+D. gcheck 
+
+5. If a user wishes to see how many bytes are in a file, which command will they have to use in order to find out? 
+
+A. wc -b 
+
+B. wc -l 
+
+C. wc -c  
+
+D. wc -w 
+
+6.  If a user wishes to quti out of vi without saving, after pressing esc twice, they would need to type ____. 
+
+A. :q 
+
+B. :q! 
+
+C. :w 
+
+D. :w! 
+
+7. A user can use wc on a file created by vi. 
+
+A. True  
+
+B. False  
+
+8.Not every git command requires a git to be put in before the actual command. 
+
+A. True 
+
+B. False  
+
+ 
