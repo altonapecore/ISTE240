@@ -1,0 +1,128 @@
+Basic Unix / miscellaneous  
+
+Tutorial 0 
+
+Login 
+
+Quiz 
+
+1. B 
+
+2. A 
+
+3. D 
+
+4. B 
+
+Tutorial 1 
+
+Files 
+
+Quiz:  
+
+1. A 
+
+2. C 
+
+3. B 
+
+4. A 
+
+Tutorial 2 
+
+Quiz: 
+
+1. D 
+
+2. B  
+
+3. D 
+
+4. C 
+
+Basic Unix quiz 
+
+1. How does the number 3 effect the permissions? D 
+
+2. A 
+
+3. C 
+
+4. C 
+
+5. B 
+
+6. A 
+
+7. B 
+
+8. B 
+
+Advanced Unix 
+
+Tutorial 3 
+
+Advanced Files 
+
+Quiz:  
+
+1. D 
+
+2. A 
+
+3. B 
+
+4. D 
+
+Tutorial 4 
+
+Advanced Directory  
+
+Quiz:  
+
+1. D 
+
+2. A 
+
+Tutorial 5 
+
+Coding 
+
+Quiz: 
+
+1. D 
+
+2. C 
+
+3. A 
+
+Tutorial 6 
+
+Vi editor 
+
+Quiz:  
+
+1. A 
+
+2. C 
+
+Advanced Unix quiz 
+
+1. C 
+
+2. A 
+
+3. D 
+
+4. A 
+
+5. C 
+
+6. B 
+
+7. B 
+
+8. A 
+ 
+
+ 
