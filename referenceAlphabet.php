@@ -6,8 +6,7 @@
 
 <div class="commands">
     <h1>Reference</h1>
-</p>Here are a list of s that are useful for web development!
-Click on any one to learn more.</p>
+<p>Here are a list of s that are useful for web development! Click on any one to learn more.</p>
 <p><a id="sortBy" href="referenceAlphabet.php">Sort alphabetically</a> | <a href="referenceCategory.php">Sort by category</a></p>
     <div class="referenceGrid">
         <p><a href="assets/lessons/ADVANCEDcoding.php">$</a></p>

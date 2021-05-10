@@ -260,7 +260,9 @@ html{
     font-size: 1.5em;
     color: #C5C6C8;
     margin-bottom: 10px;
+    list-style: none;
 }
+
 
 .difficultyGroup a {
     padding: 6px 8px 6px 16px;
