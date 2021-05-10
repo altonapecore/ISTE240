@@ -32,12 +32,14 @@
 			A 3 means it can be written in and executed. A 4 means it can be read. 
 			A 5 means it can be read and executed. A 6 means it can be read and written in. 
 			And a 7 means it can be read, written in, and executed.  
+			Permissions are then divided into three separate categories. 
+			The three being owner permissions, group permissions, and public permissions. 
 			</p>
 		<h3>Man Command</h3>
 		<p>
 			
 			The man command is used to bring up a manual for any command. 
-			This is extremely useful for when the user needs to search up what a specific command does or just forget what does.  
+			This is extremely useful for when the user needs to search up what a specific command does or just forgets what it does.  
 			</p>
 		<h3>Whoami</h3>
 		<p>
