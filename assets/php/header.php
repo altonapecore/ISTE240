@@ -17,4 +17,6 @@
         </div>
         <!--Dan suggested moving Our Team to footer so we can do that-->
     </div>
+</div>
+</div>
     </header>

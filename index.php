@@ -35,7 +35,7 @@
         <h3><a href="referenceAlphabet.php">Reference</a></h3>
     </section>
     </div>
-    <img src="assets/img/homeKeyboard.png" alt="A keyboard">
+    <img src="assets/img/homeKeyboard.png" alt="homeKeyboard">
     
 </div>
 
