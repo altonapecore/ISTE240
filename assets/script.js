@@ -1,5 +1,5 @@
 function changeLink(){
-    var fileName = location.href.split("ISTE240Project/")[1];
+    var fileName = location.href.split("ste240t44/")[1];
     console.log(fileName);
     //if on homepage, "Home" in nav is black
     if(fileName =="index.php" || fileName ==""){
