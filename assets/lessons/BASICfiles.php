@@ -19,7 +19,7 @@ Simply inputting "cat" followed by the file name will read the file and provide 
 There are some conditions to this, however. 
 If it is in the same directory, the copied file will need to have a different name, but the contents can still be the same. 
 If the file is going to a different directory, it can be either have a different name or the same name. 
-Learn more about directories in the next lesson.</p>
+Learn more about directories in the next topic.</p>
 
 <h3>mv</h3> 
 <p>The "mv" command is used to rename a file. 
@@ -30,8 +30,7 @@ The way to do this is: "mv oldfile newfile" , replacing "oldfile" with the file 
 <h3>rm</h3> 
 <p>The "rm" command is used to remove a file.</p> 
 
-<h3>vi</h3>
-<p>The "vi" command is used to view a file.</p>
+
 </div>
 
 <?php

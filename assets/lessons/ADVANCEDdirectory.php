@@ -12,10 +12,13 @@
     <h2>Advanced Directory</h2>
 
 <h3>clone</h3> 
-<p>The "clone" command will create a copy of the directory in the current one.</p> 
+<p>The clone command will create a copy of a repository and put it into the directory. 
+This is a git command. A repository would usually be a link to a path, starting from the domain. </p> 
 
 <h3>open</h3> 
-<p>The "open" command will open up the directory inside of your file finder. Finder for Mac,</p> 
+<p>The open command will open the directory inside of your file finder. 
+This is another git command. Using this will require permission from the terminal to access your file explorer, 
+but it will save everything inside of a specific folder. </p> 
 
 </div>
 

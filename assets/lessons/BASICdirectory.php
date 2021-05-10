@@ -15,10 +15,14 @@
 It shows the root that it takes, going from the shell to the current directory.</p>
 
 <h3>cd</h3>
-<p>The "cd" command is used to allow the user to change directories.</p>
+<p>The "cd" command is used to allow the user to change directories. 
+If a user wishes to enter another directory outside of their current directory, 
+they need to go back to the previous directory to do so until there is a clear path to get to the desired directory.  
+</p>
 
 <h3>md/mkdir</h3> 
-<p>The "md" or "mkdir" command is used to make a new directory.</p>
+<p>The "md" or "mkdir" command is used to make a new directory. This creates a directory inside of the current directory, 
+so a user should make sure that they are in the correct directory they wish to be in.</p>
 </div>
 
 <?php
