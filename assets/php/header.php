@@ -7,7 +7,7 @@
 </head>
 <body onload = "changeLink()">
     <header>
-        <a href="http://solace.ist.rit.edu/~iste240t44/"><img src="<?php echo $path ?>assets/img/logo.png"></img></a>
+        <a href="http://solace.ist.rit.edu/~iste240t44/"><img src="<?php echo $path ?>assets/img/logo.png" alt="Logo"></a>
     <div id="navBar">
         <div class="flexContainer">
             <!--Honestly not sure if home logo is 100% necessary-->

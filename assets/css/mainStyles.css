@@ -325,3 +325,33 @@ section p{
     margin-top: 30px;
     margin-bottom: 150px;
 }
+
+.referenceGrid a {
+    color:#46A29F;
+}
+.referenceGrid a:visited{
+    color: #46A29F;
+}
+.commands a{
+    color:#46A29F;
+}
+
+.commands a:visited{
+    color:#46A29F;
+}
+
+@media (max-width: 1000px){
+    .referenceGrid{
+        grid-template-columns: 33% 33% 33%;
+    }
+    
+    .sideBar{
+        display: none;
+    }
+    .lessonContent{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 30px;
+        margin-top: 200px;
+    }
+}
